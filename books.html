@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .card {
+            margin: 20px;
+        }
+
+        .carousel-item {
+            height: 400px;
+            
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .carousel-item img {
+            height: 100%;
+            width: none;
+            max-width: 100%;
+            
+        }
+
+        body {
+            background-color: rgb(0, 0, 0);
+        }
+
+        .container {
+            margin-top: 40px;
+        }
+
+        h1 {
+            color: white;
+        }
+    </style>
+</head>
+
+<body background="https://img.freepik.com/premium-photo/vibrant-yellow-solid-color-backgrounds-bold-visual-impact_964852-5224.jpg">
+
+    <h1 align="center"><u>BOOKS APP</u></h1>
+    <div class="container mt-5">
+
+        <!-- Row 1: Image Carousel -->
+        <center>
+            <div class="container">
+                <div class="col-12">
+                    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://pm1.aminoapps.com/6612/efb498a5ebbb82d68e3598e1453fbd2684c12dd8_hq.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://i.redd.it/gxnpd189z2db1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://i.redd.it/vqbsti2kmi811.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </center>
+        <!-- Row 2: Two Columns of Cards -->
+        <br><b>
+            <h1>COMICS</h1>
+        </b>
+        <div class="row mt-4" height="50%">
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="https://imgix.ranker.com/list_img_v2/18713/518713/original/the-best-dc-comics-heroes-u1?w=817&h=427&fm=jpg&q=50&fit=crop" class="card-img-top" alt="Book Detail 1">
+                    <div class="card-body">
+                        <h5 class="card-title">DC COMICS</h5>
+
+                        <a href="https://www.dc.com/comics"
+                            class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" height="50%">
+                <div class="card">
+                    <img src="https://thepopculturestudio.com/wp-content/uploads/2020/10/ultimate-marvel_header-1.jpg?w=1920&h=768&crop=1" class="card-img-top" alt="Book Detail 2">
+                    <div class="card-body">
+                        <h5 class="card-title">MARVEL </h5>
+                        <br>
+                        <br>
+                        <a href="https://www.google.co.in/books/edition/Marvel_Encyclopedia/NgXeDwAAQBAJ?hl=en&gbpv=1&dq=marvel&printsec=frontcover"
+                            class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row 3: Three Columns of Cards -->
+        <b>
+            <h1>MANGA</h1>
+        </b>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://sm.ign.com/t/ign_in/screenshot/default/one-piece-manga_d9qp.1280.jpg" class="card-img-top" alt="Book 3">
+                    <div class="card-body">
+                        <h5 class="card-title">ONE PIECE</h5>
+
+                        <a href="https://w12.read-onepiece.net/"
+                            class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/04/dragon-ball-super-season-2.jpg" class="card-img-top" alt="Book 4">
+                    <div class="card-body">
+                        <h5 class="card-title">DRAGONBALL </h5>
+
+                        <a href="https://dragonballsupper.com/"
+                            class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://sportshub.cbsistatic.com/i/2024/08/17/cbdd5da3-0e82-4cf4-be7e-f2b7549f0c1f/blue-lock-hiatus.jpg" class="card-img-top" alt="Book 5">
+                    <div class="card-body">
+                        <h5 class="card-title">THE JUNGLE BOOK</h5><br>
+
+                        <a href="https://w6.readbluelock.com/?2024-10-07"
+                            class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
